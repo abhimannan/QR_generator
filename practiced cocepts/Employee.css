@@ -1,0 +1,80 @@
+.card-container {
+ width: 300px; /* Adjust width as needed */
+ padding: 20px;
+ border: 1px solid #ccc;
+ border-radius: 8px;
+ margin: 10px;
+ box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+ text-align: center;
+ background-color: #f9f9f9; /* Light background color for the card */
+}
+
+.status {
+ background-color: #ffc107; /* Yellow background color for status */
+ color: #333;
+ padding: 5px 10px;
+ border-radius: 5px;
+ margin-bottom: 10px;
+}
+
+.employee_image {
+ width: 150px; /* Adjust image size */
+ height: 150px;
+ border-radius: 50%;
+ object-fit: cover;
+ margin-bottom: 10px;
+}
+
+h2 {
+ font-size: 1.5rem;
+ margin-bottom: 5px;
+}
+
+h3 {
+ color: #666;
+ font-size: 1.2rem;
+ margin-bottom: 10px;
+}
+
+.job_desc {
+ margin-bottom: 15px;
+}
+
+.button-container {
+ margin-top: 10px;
+}
+
+.button-container button {
+ margin: 5px;
+ padding: 8px 16px;
+ border: none;
+ background-color: #007bff; /* Blue background color for buttons */
+ color: white;
+ border-radius: 5px;
+ cursor: pointer;
+ transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.button-container button:hover {
+ background-color: #0056b3; /* Darker shade of blue on hover */
+}
+
+.skills {
+ font-weight: bold;
+ margin-top: 15px;
+}
+
+.skilllist {
+ display: inline-block;
+ background-color: #e9ecef; /* Light background color for skills */
+ color: #333;
+ padding: 5px 10px;
+ border-radius: 10px;
+ margin: 5px;
+}
+
+@media (max-width: 768px) {
+ .card-container {
+   width: 100%; /* Adjust for responsiveness */
+ }
+}
